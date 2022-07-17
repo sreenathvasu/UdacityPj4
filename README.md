@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/sreenathvasu/UdacityPj4.svg?style=svg)](https://app.circleci.com/pipelines/github/sreenathvasu/UdacityPj4)
+
 <include a CircleCI status badge, here>
 
 ## Project Overview
