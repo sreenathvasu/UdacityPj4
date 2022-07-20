@@ -1,1 +1,16 @@
 <paste log output from Kubernetes-mediated prediction, here>
+(.devops) voclabs:~/environment/UdacityPj4 (main) $ ./run_kubernetes.sh
+\pod/udacitypj4 created
+NAME         READY   STATUS              RESTARTS   AGE
+udacitypj4   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) voclabs:~/environment/UdacityPj4 (main) $ kubectl get pod
+NAME         READY   STATUS    RESTARTS   AGE
+udacitypj4   1/1     Running   0          65s
+(.devops) voclabs:~/environment/UdacityPj4 (main) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacitypj4" already exists
+NAME         READY   STATUS    RESTARTS   AGE
+udacitypj4   1/1     Running   0          72s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
